@@ -1,4 +1,4 @@
-<img src="screenshot/nav-open.gif" alt="gif preview">
+<img src="screenshot/dynamic-nav.gif" alt="gif preview">
 
 ## Dynamic & Responsive Navigation Bar
 
