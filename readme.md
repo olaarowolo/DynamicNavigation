@@ -1,8 +1,14 @@
-<img src="screenshot/dynamic-nav.gif" alt="preview">
+<img src="screenshot/nav-open.gif" alt="preview">
 
 ## Dynamic & Responsive Navigation Bar
 
-This project, designed by [Ola Arowolo](https://tech.olaarowolo.com), implements a dynamic and responsive navigation bar. The navigation bar adapts its layout and content based on screen size, providing a seamless user experience across all devices.
+This project, designed by [Ola Arowolo](https://tech.olaarowolo.com), implements a dynamic and responsive navigation bar. 
+
+<img src="screenshot/dynamic-nav.gif" alt=" dynamic-nav preview">
+
+The navigation bar adapts its layout and content based on screen size, providing a seamless user experience across all devices.
+
+<img src="screenshot/nav-closed.gif" alt="nav-closed review">
 
 ## Features
 
