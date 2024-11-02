@@ -15,7 +15,7 @@ on:
         - name: 📂 Sync files
           uses: SamKirkland/FTP-Deploy-Action@v4.3.5
           with:
-            server: mail.olarowolo.com
+            server: ftp.olarowolo.com
             username: ${{ secrets.ftp_username }}
             password: ${{ secrets.ftp_password }}
             server-dir: /staging.olaarowolo.com/
