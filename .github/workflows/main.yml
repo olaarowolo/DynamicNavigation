@@ -1,1 +1,21 @@
+on:
+  push:
+  branches:
+    - main
+    - staging
+  name: 🚀 Deploy website on push
+  jobs:
+    web-deploy:
+      name: 🎉 Deploy
+      runs-on: ubuntu-latest
+      steps:
+        - name: 🚚 Get latest code
+          uses: actions/checkout@v4
 
+        - name: 📂 Sync files
+          uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+          with:
+            server: mail.olarowolo.com
+            username: ${{ secrets.ftp_username }}
+            password: ${{ secrets.ftp_password }}
+            server-dir: /staging.olaarowolo.com/
